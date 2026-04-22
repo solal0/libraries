@@ -321,7 +321,7 @@ local function CreateRoundedFrame(name, size, position, parent)
     frame.BackgroundTransparency = 0
     
     local corner = Instance.new("UICorner")
-    corner.CornerRadius = GetTheme().corner_radius
+    corner.CornerRadius = GetTheme().corner_radius or UDim.new(0, 8)
     corner.Parent = frame
     
     local stroke = Instance.new("UIStroke")
