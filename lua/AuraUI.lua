@@ -7,7 +7,7 @@
     Host this as a module and load with loadstring()
     
     Usage:
-        local Aura = loadstring(game:HttpGet("YOUR_URL_HERE"))()
+        local Aura = loadstring(game:HttpGet("https://github.com/solal0/libraries/raw/refs/heads/main/lua/AuraUI.lua"))()
         local Window = Aura:CreateWindow("My Cheat", "v1.0")
         
         local Tab = Window:CreateTab("Main")
@@ -1497,7 +1497,7 @@ end
 
 --[[
     -- EXAMPLE SCRIPT:
-    local Aura = loadstring(game:HttpGet("YOUR_URL"))()
+    local Aura = loadstring(game:HttpGet("https://github.com/solal0/libraries/raw/refs/heads/main/lua/AuraUI.lua"))()
     
     local Window = Aura:CreateWindow("My Cheat", "v1.0")
     
