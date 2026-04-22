@@ -1,3 +1,5 @@
+-- bad.
+
 -- ImGui-Lua for Roblox
 -- Version: 1.0.0
 -- Load with: loadstring(game:HttpGet("https://raw.githubusercontent.com/solal0/libraries/refs/heads/main/lua/ImGui2.lua"))()
