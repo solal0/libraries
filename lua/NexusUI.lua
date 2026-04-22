@@ -1,3 +1,5 @@
+-- too many errors
+
 -- NexusUI v1.0.0
 -- A sleek, dark-themed UI library with stacking notifications
 -- Load with: loadstring(game:HttpGet("https://raw.githubusercontent.com/solal0/libraries/refs/heads/main/lua/NexusUI.lua"))()
