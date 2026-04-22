@@ -1113,7 +1113,6 @@ function ImGui.UpdateInput()
     -- Get mouse button states
     _context.mouse_down[1] = mouse.Button1Down  -- Left
     _context.mouse_down[2] = mouse.Button2Down  -- Right
-    _context.mouse_down[3] = mouse.Button3Down  -- Middle
     
     -- Get key states
     local userInputService = game:GetService("UserInputService")
@@ -1123,7 +1122,6 @@ function ImGui.UpdateInput()
     ImGui.IO.MousePos = _context.mouse_pos
     ImGui.IO.MouseDown[0] = _context.mouse_down[1]
     ImGui.IO.MouseDown[1] = _context.mouse_down[2]
-    ImGui.IO.MouseDown[2] = _context.mouse_down[3]
     ImGui.IO.DeltaTime = _context.delta_time
     ImGui.IO.DisplaySize = Vector2.new(
         workspace.CurrentCamera.ViewportSize.X,
