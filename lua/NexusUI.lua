@@ -1,6 +1,6 @@
 -- NexusUI v1.0.0
 -- A sleek, dark-themed UI library with stacking notifications
--- Load with: loadstring(game:HttpGet("https://raw.githubusercontent.com/your-repo/nexus-ui/main/nexus.lua"))()
+-- Load with: loadstring(game:HttpGet("https://raw.githubusercontent.com/solal0/libraries/refs/heads/main/lua/NexusUI.lua"))()
 
 local NexusUI = {}
 NexusUI.__index = NexusUI
